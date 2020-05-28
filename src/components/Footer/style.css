@@ -1,0 +1,61 @@
+li {
+  list-style: none;
+  padding: 20px 30px;
+}
+.subscribe {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 50px 0;
+  padding: 0 40px;
+}
+.subscribe button {
+  color: white;
+  background-color: teal;
+  border-radius: 50px;
+  text-align: center;
+  height: 50px;
+  width: 100px;
+}
+
+.subscribe button:hover {
+  background-color: royalblue;
+}
+
+.subscribe input {
+  width: 50%;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.subscribe input:hover {
+  border-radius: 50px;
+  height: 50px;
+  width: 100px;
+  width: 50%;
+  transition: 100px 0.2s;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+.alogo {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  text-decoration: none;
+  padding: 60px;
+  color: #333;
+}
+.fas {
+  padding: 0 10px;
+}
+.fab {
+  padding: 0 15px;
+  margin-top: 80px;
+}
+.copywrite {
+  text-align: center;
+  padding-top: 15px;
+}

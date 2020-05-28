@@ -37,14 +37,15 @@ const Sidebar = (props) => {
         </div>
         <div className="profileImageContainer">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRGAb43NxZswWRLw9RoxC8YwykXlLy_efq2r674Xj0ffRR3D-0P"
-            alt=""
+            src="https://media-exp1.licdn.com/dms/image/C5103AQETqZlZwo0i3A/profile-displayphoto-shrink_200_200/0?e=1596067200&v=beta&t=915gwXnL6_9M4YEwWtsMwrfC0WgEpgNTIR-9kOW3Huo"
+            alt="Profile Image"
           />
         </div>
         <div className="cardBody">
           <p className="personalBio">
             My name is Prakash Chandra Mourya I am a software developer
-            specialization in Front end developement....:)
+            specialization in Front end developement with React and Bootstrap
+            technology....:)
           </p>
         </div>
       </Card>

@@ -1,25 +1,22 @@
-import React from 'react';
-import './style.css';
-
+import React from "react";
+import "./style.css";
+import { NavLink } from "react-router-dom";
 /**
-* @author
-* @function Header
-**/
+ * @author
+ * @function Header
+ **/
 
 const Header = (props) => {
-  return(
+  return (
     <header className="header">
-        <nav className="headerMenu">
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Contact Us</a>
-        </nav>
-        <div>
-            socila Media links
-        </div>
+      <nav className="headerMenu">
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/about-us">About Us</NavLink>
+        <NavLink to="/contact-us">Contact Us</NavLink>
+      </nav>
+      <div>socila Media links</div>
     </header>
-   )
+  );
+};
 
- }
-
-export default Header
+export default Header;

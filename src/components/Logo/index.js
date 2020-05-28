@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./style.css";
 
 /**
@@ -9,7 +10,7 @@ import "./style.css";
 const Logo = (props) => {
   return (
     <div className="logo">
-      <a href="#">PC Mourya</a>
+      <NavLink to="/">PC Mourya</NavLink>
     </div>
   );
 };

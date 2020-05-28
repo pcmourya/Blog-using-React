@@ -1,0 +1,12 @@
+.con {
+  display: block;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0;
+  color: grey;
+  font-weight: 600;
+  margin-bottom: 300px;
+}
+.con :hover {
+  color: lightskyblue;
+}
